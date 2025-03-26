@@ -71,7 +71,7 @@ h2{
     text-align: center;
     font-size: 28px;
 }
-.habilidade {
+.container-habilidades {
     display: flex; /* Alinea en fila */
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Asegura alineación vertical */
@@ -131,7 +131,7 @@ h2{
     text-align: center;
     padding: 40px;
 }
-.proyectoss {
+.container-proyectos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -144,6 +144,12 @@ h2{
     text-align: left;
     display: flex;
     gap: 30px;
+}
+.proyecto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
 }
 .link {
     text-decoration: none;
