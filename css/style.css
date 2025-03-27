@@ -1,7 +1,7 @@
 body{
     color: rgb(31, 74, 87);
     background: #c4dae4;
-    font-family: 'Dosis', sans-serif;
+    font-family: Montserrat - sans-serif;
     margin: 20px 0;
     padding: 20px 10%;
     box-sizing: border-box;
@@ -36,7 +36,7 @@ img{
     padding: 30px 10%;
 }
 h1{
-    font-size: 40px;
+    font-size: 45px;
 }
 p.front{
     font-size: 17px;
@@ -188,4 +188,5 @@ input, textarea {
 }
 footer{
     text-align: center;
+    padding: 10px;
 }
