@@ -3,13 +3,14 @@
 
 <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/1f11b0cc92.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <nav>
+            <a href="#sobremi">Sobre mi</a>
             <a href="#habilidades">Habilidades</a>
             <a href="#experiencia">Experiencia</a>
             <a href="#proyectos">Proyectos</a>
@@ -17,7 +18,7 @@
         </nav>
     </header>
     <br>
-    <section class="sobremi">
+    <section class="sobremi" id="sobremi">
         <article>
         <h1>Hola! Soy Nombre Apellido</h1>
         <div class="frontend">
@@ -90,7 +91,7 @@
         <h2 id="proyectos">Proyectos</h2>
         <div class="container-proyectos">
             <div class="proyecto">
-                <img src="proyecto1.png" alt="Proyecto 1">
+                <img src="img/proyecto1.png" alt="Proyecto 1">
                 <div>
                     <h3>Video.js</h3>
                     <p>Video.js es un reproductor de vídeo de código abierto con todas las funciones
@@ -103,7 +104,7 @@
                 </div>
             </div>
             <div class="proyecto">
-                <img src="proyecto2.png" alt="Proyecto 2">
+                <img src="img/proyecto2.png" alt="Proyecto 2">
                 <div>
                     <h3>Mercado Libre</h3>
                     <p>Desarrollé un marketplace completo que permite a los usuarios comprar y vender productos de diversas categorías. La plataforma ofrece una experiencia fluida e intuitiva, con un diseño responsivo y funcionalidades avanzadas para mejorar la interacción entre compradores y vendedores.</p>
@@ -111,7 +112,7 @@
                 </div>
             </div>
             <div class="proyecto">
-                <img src="proyecto3.png" alt="Proyecto 3">
+                <img src="img/proyecto3.png" alt="Proyecto 3">
                 <div>
                     <h3>To-Do List</h3>
                     <p>Aplicación web para gestionar tareas de manera sencilla y eficiente. Permite agregar, marcar como completadas y eliminar tareas. Además, guarda la información en el navegador para que no se pierda al recargar la página. Incluye un diseño moderno, con opciones de filtro para ver tareas pendientes o completadas.</p>
@@ -132,7 +133,7 @@
             <label for="mensaje">Mensaje:</label><br>
             <textarea id="mensaje" name="mensaje" required></textarea>
             <br><br>
-            <button type="submit">Enviar</button>
+            <button class="enviar" type="submit">Enviar</button>
             <br><br>
         </form>
     </section>
