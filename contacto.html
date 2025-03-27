@@ -17,23 +17,21 @@
             <a href="contacto.html">Contacto</a>
         </nav>
     </header>
-    <br>
-    <section class="sobremi" id="sobremi">
-        <article>
-        <h1>Hola! Soy Nombre Apellido</h1>
-        <div class="frontend">
-            <i class="fa-solid fa-code"></i>
-            <p class="front">FRONT-END DEVELOPER</p>
-        </div>
-        <p class="descripcion">
-            Soy un desarrollador <strong>Frontend</strong> con experiencia en <strong>HTML</strong>, <strong>CSS</strong> y <strong>JavaScript</strong>.
-            Me apasiona la tecnología y la programación, y me encanta aprender cosas nuevas. 
-            Estoy emocionado de colaborar en nuevos proyectos y seguir creciendo como profesional.
-        </p>
-        </article>
-        <aside>
-            <img class="perfil" src="https://img.freepik.com/vector-gratis/hacker-que-opera-ilustracion-icono-historieta-ordenador-portatil-concepto-icono-tecnologia-aislado-estilo-dibujos-animados-plana_138676-2387.jpg?t=st=1742509023~exp=1742512623~hmac=862d709954843fe0eab870d43cd4dbf7d0739d0a84c608d0d587b131812a9e26&w=826">
-        </aside>
+    <section class="contacto">
+        <h2 id="contacto">Contacto</h2>
+        <form action="https://formspree.io/f/mdkedgbk" method="POST">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <br><br>
+            <button class="enviar" type="submit">Enviar</button>
+            <br><br>
+        </form>
     </section>
     <footer>
         <a class="red" href="https://www.linkedin.com/in/codewonders/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
